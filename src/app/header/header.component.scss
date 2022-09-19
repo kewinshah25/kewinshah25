@@ -1,0 +1,16 @@
+.navbar {
+  height: 100%;
+  float: left;
+  position: fixed;
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 768px) {
+  #menu-toggle:checked + .nav-menu {
+    display: block;
+  }
+}
+
+.mt-50-percent {
+  margin-top: 30vh;
+}
