@@ -1,20 +1,20 @@
 <div class="tabs is-centered">
   <ul>
-    <li [ngClass]="{'is-active': activeTab==='about'}" (click)="changeTabs('about')"><a>About me</a></li>
-    <li [ngClass]="{'is-active': activeTab==='blogs'}" (click)="changeTabs('blogs')"><a>Blogs</a></li>
+    <li [ngClass]="{'is-active': activeTab==='about'}" (click)="changeTabs('about')"><a>about me</a></li>
+    <li [ngClass]="{'is-active': activeTab==='blogs'}" (click)="changeTabs('blogs')"><a>blogs</a></li>
   </ul>
 </div>
 
 <!-- ABOUT -->
 <section *ngIf="activeTab==='about'" id="about">
 <!-- CONTAINER -->
-<div class="box container mt-6">
+<div class="box container mt-2">
   <div class="title has-text-centered">hello world!</div>
   <div class="row info">
         <!-- <article> -->
           <div class="col-sm-8">
             <p class="font-fauna subtitle">
-              I am Kewin Shah, a part-time software engineer and a full time dreamer. I am passionate about computers, have a knack at problem solving and skilled at solving your problems efficiently.
+              i am <b>kewin shah</b>, a part-time software engineer and a full time dreamer... i am passionate about computers, have a knack for problem solving and skilled at solving your problems efficiently
             </p>
           </div>
           <img src="assets/img/profile-pic.png" class="img-responsive is-horizontal-center">

@@ -8,9 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon'
 import { ProjectsComponent } from './projects/projects.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { SocialsComponent } from './socials/socials.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HomeComponent } from './home/home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { HomeComponent } from './home/home.component';
     HeaderComponent,
     ProjectsComponent,
     FooterComponent,
-    ContactComponent,
+    SocialsComponent,
     BlogsComponent,
     HomeComponent,
   ],
@@ -27,6 +28,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

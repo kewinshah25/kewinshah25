@@ -16,7 +16,7 @@
   <div id="navbarBasicExample" [ngClass]="active ? 'is-active':''" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item" routerLink="projects">
-        Projects
+        projects
       </a>
 
       <a class="navbar-item" routerLink="blogs">
@@ -24,7 +24,7 @@
       </a>
 
       <a class="navbar-item" routerLink="contact">
-        Contact
+        contact
       </a>
     </div>
 
@@ -45,13 +45,13 @@
   <div class="container">
     <div class="nav-right nav-menu">
       <a routerLink="/" class="nav-item is-tab is-hidden-tablet">
-        Home
+        home
       </a>
       <a routerLink="projects" class="nav-item is-tab is-hidden-tablet">
-        Projects
+        projects
       </a>
-      <a routerLink="contact" class="nav-item is-tab is-hidden-tablet">
-        Contact
+      <a routerLink="socials" class="nav-item is-tab is-hidden-tablet">
+        socials
       </a>
 
       <a class="nav-item is-tab is-active">
@@ -69,12 +69,12 @@
   <ul class="menu-list mt-50-percent">
     <li class="m-2">
       <a routerLink="" [ngClass]= "{'is-active':currentPage=='' || currentPage=='home'}">
-        Home
+        home
       </a>
     </li>
     <li class="m-2">
       <a routerLink="projects" [ngClass]= "{'is-active':currentPage=='projects'}">
-        Projects
+        projects
       </a>
 
       <!-- <ul>
@@ -91,13 +91,13 @@
       </ul> -->
     </li>
     <li class="m-2">
-      <a routerLink="contact" [ngClass]= "{'is-active':currentPage=='contact'}">
-        Contact
+      <a routerLink="socials" [ngClass]= "{'is-active':currentPage=='socials'}">
+        socials
       </a>
     </li>
     <li class="m-2">
       <button class="mt-2 button is-primary">
-        View Resume
+        view resume
 
       </button>
     </li>
