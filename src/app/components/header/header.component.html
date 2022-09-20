@@ -65,15 +65,15 @@
 </nav>
 
 <aside class="navbar column is-2  is-narrow-mobile is-fullheight is-hidden-mobile">
-    <p>Hello, <br>Welcome to my site!</p>
+    <!-- <p>Hello, <br>Welcome to my site!</p> -->
   <ul class="menu-list mt-50-percent">
     <li class="m-2">
-      <a routerLink="" class="nav-item">
+      <a routerLink="" [ngClass]= "{'is-active':currentPage=='' || currentPage=='home'}">
         Home
       </a>
     </li>
     <li class="m-2">
-      <a routerLink="projects">
+      <a routerLink="projects" [ngClass]= "{'is-active':currentPage=='projects'}">
         Projects
       </a>
 
@@ -91,15 +91,15 @@
       </ul> -->
     </li>
     <li class="m-2">
-      <a routerLink="contact" class="">
+      <a routerLink="contact" [ngClass]= "{'is-active':currentPage=='contact'}">
         Contact
       </a>
     </li>
     <li class="m-2">
       <button class="mt-2 button is-primary">
         View Resume
+
       </button>
     </li>
   </ul>
 </aside>
-

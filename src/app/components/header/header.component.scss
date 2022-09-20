@@ -14,3 +14,14 @@
 .mt-50-percent {
   margin-top: 30vh;
 }
+
+.is-active {
+  color: black !important;
+  background-color: #ececec !important;
+  transition: .1s ease-out;
+}
+
+a:hover {
+  transition: .4s ease-out;
+}
+
