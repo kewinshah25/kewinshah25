@@ -8,3 +8,18 @@
   margin-right: auto;
   width: 30vh;
 }
+
+.card {
+  width: 50%;
+}
+
+.overflow {
+  -webkit-line-clamp: 4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.width-small {
+  width: 15vw;
+}

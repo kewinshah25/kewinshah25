@@ -11,5 +11,10 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  activeTab = 'blogs';
+
+  public changeTabs(tab: string) {
+    this.activeTab = tab;
+  }
 
 }
