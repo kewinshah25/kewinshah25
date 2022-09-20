@@ -1,2 +1,2 @@
 # kewin-website
- Self website to record blogs and proejcts
+ A website to record blogs and some old projects
