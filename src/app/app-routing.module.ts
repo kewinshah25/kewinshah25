@@ -21,8 +21,8 @@ const routes: Routes = [
     component: SocialsComponent
   },
   {
-    path: 'blogs',
-    component: BlogsComponent
+    path: '**',
+    component: HomeComponent
   },
 ];
 
