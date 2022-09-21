@@ -321,7 +321,7 @@ function HomeComponent_section_9_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](7, "img", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "p", 17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " helloooooooooooooo subtitle! dsd asd bruh huhx adddsf ghjj ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " helloooooooooooooo subtitle! ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](10, "footer", 18)(11, "p", 19)(12, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](13, " View on ");
