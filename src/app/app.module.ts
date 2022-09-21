@@ -11,7 +11,6 @@ import { FooterComponent } from './footer/footer.component';
 import { SocialsComponent } from './socials/socials.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HomeComponent } from './home/home.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
