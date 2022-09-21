@@ -19,15 +19,11 @@ const routes: Routes = [
   {
     path: 'socials',
     component: SocialsComponent
-  },
-  {
-    path: '**',
-    component: HomeComponent
-  },
+  }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

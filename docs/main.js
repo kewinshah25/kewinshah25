@@ -34,17 +34,13 @@ const routes = [
     {
         path: 'socials',
         component: _socials_socials_component__WEBPACK_IMPORTED_MODULE_0__.SocialsComponent
-    },
-    {
-        path: '**',
-        component: _home_home_component__WEBPACK_IMPORTED_MODULE_1__.HomeComponent
-    },
+    }
 ];
 class AppRoutingModule {
 }
 AppRoutingModule.ɵfac = function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); };
 AppRoutingModule.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
-AppRoutingModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule.forRoot(routes), _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule] });
+AppRoutingModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule.forRoot(routes, { useHash: true }), _angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule] });
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_4__.RouterModule] }); })();
 
 
@@ -236,7 +232,7 @@ class HeaderComponent {
     }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__.Router)); };
-HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 29, vars: 9, consts: [[1, "nav", "has-shadow", "is-hidden-tablet"], [1, "container"], [1, "nav-right", "nav-menu"], ["routerLink", "/", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "projects", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "socials", 1, "nav-item", "is-tab", "is-hidden-tablet"], [1, "nav-item", "is-tab", "is-active"], [1, "icon"], [1, "fa", "fa-user"], [1, "nav-item", "is-tab"], [1, "fa", "fa-sign-out"], [1, "navbar", "column", "is-2", "is-narrow-mobile", "is-fullheight", "is-hidden-mobile"], [1, "menu-list", "mt-50-percent"], [1, "m-2"], ["routerLink", "", 3, "ngClass"], ["routerLink", "projects", 3, "ngClass"], ["routerLink", "socials", 3, "ngClass"], [1, "mt-2", "button", "is-primary"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 29, vars: 9, consts: [[1, "nav", "has-shadow", "is-hidden-tablet"], [1, "container"], [1, "nav-right", "nav-menu"], ["routerLink", "", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "projects", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "socials", 1, "nav-item", "is-tab", "is-hidden-tablet"], [1, "nav-item", "is-tab", "is-active"], [1, "icon"], [1, "fa", "fa-user"], [1, "nav-item", "is-tab"], [1, "fa", "fa-sign-out"], [1, "navbar", "column", "is-2", "is-narrow-mobile", "is-fullheight", "is-hidden-mobile"], [1, "menu-list", "mt-50-percent"], [1, "m-2"], ["routerLink", "", 3, "ngClass"], ["routerLink", "projects", 3, "ngClass"], ["routerLink", "socials", 3, "ngClass"], [1, "mt-2", "button", "is-primary"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "nav", 0)(1, "div", 1)(2, "div", 2)(3, "a", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " home ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
