@@ -7,7 +7,6 @@ A website to record blogs and maybe some old projects.
 - Project 3 (planning to do): [**Blogging Website**](#blogs)
 - Project 4 (planning to do): [**Fantasy Soccer App**](#fantasy-app)
 - Project 5 (planning to do): [**E-commerce Website**](#ecommerce)
-- Project 6 (planning to do):
 
 > To build the project locally, do npm
 
@@ -66,3 +65,7 @@ Goals:
 ## Fantasy App
 
 In this app, I am planning to follow the principles (and potentially rules) of the Fantasy Premier League (soccer) website. Fetch live data from free soccer scoring APIs and maybe create my own rules but try to clone the working and add more and more features of the app as I move forward within the app. [To be continued...]
+
+## Ecommerce
+
+This one is gonna be huge IMO.
