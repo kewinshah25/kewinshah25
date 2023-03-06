@@ -3,7 +3,7 @@
 A website to record blogs and maybe some old projects.
 
 - Project 1 (in progress): [**Basic website wide user log in**](#basic-website-wide-user-login)
-- Project 2 (in progress): [**To do list**](#to-do-list)
+- Project 2 (planning to do): [**To do list**](#to-do-list)
 - Project 3 (planning to do): [**Blogging Website**](#blogs)
 - Project 4 (planning to do): [**Fantasy Soccer App**](#fantasy-app)
 - Project 5 (planning to do): [**E-commerce Website**](#ecommerce)
