@@ -217,6 +217,7 @@ const _c0 = function (a0) { return { "is-active": a0 }; };
 class HeaderComponent {
     constructor(router) {
         this.router = router;
+        this.resumeLink = 'https://drive.google.com/file/d/1brcUZY2nJ1sRoDzkAT4W8wVleT6sWxXv/view?usp=sharing';
         this.active = false;
         this.currentPage = '';
     }
@@ -230,9 +231,12 @@ class HeaderComponent {
     }
     openModal() {
     }
+    viewResumeNewTab() {
+        window.open(this.resumeLink, '_blank');
+    }
 }
 HeaderComponent.ɵfac = function HeaderComponent_Factory(t) { return new (t || HeaderComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__.Router)); };
-HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 29, vars: 9, consts: [[1, "nav", "has-shadow", "is-hidden-tablet"], [1, "container"], [1, "nav-right", "nav-menu"], ["routerLink", "", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "projects", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "socials", 1, "nav-item", "is-tab", "is-hidden-tablet"], [1, "nav-item", "is-tab", "is-active"], [1, "icon"], [1, "fa", "fa-user"], [1, "nav-item", "is-tab"], [1, "fa", "fa-sign-out"], [1, "navbar", "column", "is-2", "is-narrow-mobile", "is-fullheight", "is-hidden-mobile"], [1, "menu-list", "mt-50-percent"], [1, "m-2"], ["routerLink", "", 3, "ngClass"], ["routerLink", "projects", 3, "ngClass"], ["routerLink", "socials", 3, "ngClass"], [1, "mt-2", "button", "is-primary"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
+HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: HeaderComponent, selectors: [["app-header"]], decls: 29, vars: 9, consts: [[1, "nav", "has-shadow", "is-hidden-tablet"], [1, "container"], [1, "nav-right", "nav-menu"], ["routerLink", "", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "projects", 1, "nav-item", "is-tab", "is-hidden-tablet"], ["routerLink", "socials", 1, "nav-item", "is-tab", "is-hidden-tablet"], [1, "nav-item", "is-tab", "is-active"], [1, "icon"], [1, "fa", "fa-user"], [1, "nav-item", "is-tab"], [1, "fa", "fa-sign-out"], [1, "navbar", "column", "is-2", "is-narrow-mobile", "is-fullheight", "is-hidden-mobile"], [1, "menu-list", "mt-50-percent"], [1, "m-2"], ["routerLink", "", 3, "ngClass"], ["routerLink", "projects", 3, "ngClass"], ["routerLink", "socials", 3, "ngClass"], [1, "mt-2", "button", "is-primary", 3, "click"]], template: function HeaderComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "nav", 0)(1, "div", 1)(2, "div", 2)(3, "a", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " home ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -258,6 +262,7 @@ HeaderComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](25, " socials ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()();
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "li", 13)(27, "button", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function HeaderComponent_Template_button_click_27_listener() { return ctx.viewResumeNewTab(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](28, " view resume ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]()()()();
     } if (rf & 2) {
@@ -418,7 +423,7 @@ class SocialsComponent {
     }
 }
 SocialsComponent.ɵfac = function SocialsComponent_Factory(t) { return new (t || SocialsComponent)(); };
-SocialsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SocialsComponent, selectors: [["app-socials"]], decls: 22, vars: 0, consts: [["src", "https://gravatar.com/avatar/e907a730e362a6d52844c39c9b91cec7?s=400", "alt", "", 1, "me", "mt-4"], [1, "mt-6", "social", "is-size-5"], ["href", "https://twitter.com/mekewin", "target", "_blank"], ["href", "https://github.com/kewinshah25", "target", "_blank"], ["href", "https://linkedin.com/in/kewinshah", "target", "_blank"], ["href", "mailto:kewinshah25@gmail.com", "target", "_blank"]], template: function SocialsComponent_Template(rf, ctx) { if (rf & 1) {
+SocialsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SocialsComponent, selectors: [["app-socials"]], decls: 22, vars: 0, consts: [["src", "https://gravatar.com/avatar/e907a730e362a6d52844c39c9b91cec7?s=400", "alt", "", 1, "me", "mt-4"], [1, "mt-6", "social", "is-size-5"], ["href", "https://twitter.com/mekewin", "target", "_blank"], ["href", "https://github.com/kewinshah25", "target", "_blank"], ["href", "https://linkedin.com/in/kewinshah", "target", "_blank"], ["href", "mailto:kewinshah25@gmail.com"]], template: function SocialsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1)(3, "ul")(4, "li")(5, "a", 2);
