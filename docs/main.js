@@ -186,7 +186,7 @@ class FooterComponent {
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
 FooterComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 4, vars: 0, consts: [[1, "footer"], [1, "is-size-6", "container", "content", "has-text-centered", "mt-6"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0)(1, "div", 1)(2, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Made with \uD83D\uDC99 by Kewin Shah ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Made with \uD83D\uDC99 by Kewin Shah (v0.1) ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
     } }, styles: [".footer[_ngcontent-%COMP%] {\n  width: 100%;\n  padding: 0;\n  height: -moz-fit-content;\n  height: fit-content;\n  background-color: white;\n}"] });
 
