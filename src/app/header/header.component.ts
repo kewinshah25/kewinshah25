@@ -8,6 +8,7 @@ import { filter, map } from 'rxjs/operators'
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  private resumeLink = 'https://drive.google.com/file/d/1brcUZY2nJ1sRoDzkAT4W8wVleT6sWxXv/view?usp=sharing';
   active = false;
   currentPage = '';
 
@@ -26,5 +27,9 @@ export class HeaderComponent implements OnInit {
   }
 
   openModal() {
+  }
+
+  viewResumeNewTab() {
+    window.open(this.resumeLink, '_blank');
   }
 }
