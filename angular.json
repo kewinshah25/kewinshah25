@@ -59,7 +59,7 @@
               ],
               "optimization": false,
               "outputHashing": "none",
-              "sourceMap": false,
+              "sourceMap": true,
               "namedChunks": false,
               "extractLicenses": true,
               "statsJson": false,
@@ -88,6 +88,9 @@
             "browserTarget": "website:build"
           },
           "configurations": {
+			"dev": {
+				"browserTarget": "website:build:production"
+			},
             "production": {
               "browserTarget": "website:build:production"
             }

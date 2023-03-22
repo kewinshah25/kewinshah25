@@ -6,6 +6,7 @@ import { SocialsComponent } from './socials/socials.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { GiryaBoxesComponent } from './girya-boxes/girya-boxes.component';
 
 const routes: Routes = [
   {
@@ -14,12 +15,18 @@ const routes: Routes = [
   },
   {
     path: 'projects',
-    component: ProjectsComponent
+    component: ProjectsComponent,
+    children: [
+      {
+        path: 'girya-boxes',
+        component: GiryaBoxesComponent,
+      },
+    ]
   },
   {
     path: 'socials',
     component: SocialsComponent
-  }
+  },
 ];
 
 @NgModule({

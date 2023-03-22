@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SocialsComponent } from './socials/socials.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HomeComponent } from './home/home.component';
+import { GiryaBoxesComponent } from './girya-boxes/girya-boxes.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     SocialsComponent,
     BlogsComponent,
     HomeComponent,
+    GiryaBoxesComponent,
   ],
   imports: [
     BrowserModule,
