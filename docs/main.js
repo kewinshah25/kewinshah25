@@ -231,22 +231,25 @@ function GiryaBoxesComponent_div_2_Template(rf, ctx) { if (rf & 1) {
 } }
 function GiryaBoxesComponent_div_3_div_1_Template(rf, ctx) { if (rf & 1) {
     const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8, 9)(2, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function GiryaBoxesComponent_div_3_div_1_Template_div_click_2_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r7.edit(box_r5.id)); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 8, 9)(2, "input", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function GiryaBoxesComponent_div_3_div_1_Template_input_click_2_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](box_r5.val = null); })("change", function GiryaBoxesComponent_div_3_div_1_Template_input_change_2_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](box_r5.val); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function GiryaBoxesComponent_div_3_div_1_Template_div_click_4_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r9.add(box_r5.id)); });
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "+");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function GiryaBoxesComponent_div_3_div_1_Template_div_click_3_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r10.edit(box_r5.id)); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function GiryaBoxesComponent_div_3_div_1_Template_div_click_5_listener() { const restoredCtx = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const box_r5 = restoredCtx.$implicit; const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresetView"](ctx_r11.add(box_r5.id)); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "+");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
 } if (rf & 2) {
     const box_r5 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("box: ", box_r5.val, " ");
 } }
 function GiryaBoxesComponent_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, GiryaBoxesComponent_div_3_div_1_Template, 6, 1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, GiryaBoxesComponent_div_3_div_1_Template, 7, 1, "div", 7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -280,7 +283,7 @@ class GiryaBoxesComponent {
     }
 }
 GiryaBoxesComponent.ɵfac = function GiryaBoxesComponent_Factory(t) { return new (t || GiryaBoxesComponent)(); };
-GiryaBoxesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GiryaBoxesComponent, selectors: [["app-girya-boxes"]], decls: 4, vars: 2, consts: [[1, "container"], [1, "inner-container"], ["class", "plus-container", 4, "ngIf"], ["class", "", 4, "ngIf"], [1, "plus-container"], [1, "center", 3, "click"], [1, ""], ["class", "boxes-inner flex", 4, "ngFor", "ngForOf"], [1, "boxes-inner", "flex"], ["boxes", ""], [1, "box", "center", 3, "click"]], template: function GiryaBoxesComponent_Template(rf, ctx) { if (rf & 1) {
+GiryaBoxesComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GiryaBoxesComponent, selectors: [["app-girya-boxes"]], decls: 4, vars: 2, consts: [[1, "container"], [1, "inner-container"], ["class", "plus-container", 4, "ngIf"], ["class", "", 4, "ngIf"], [1, "plus-container"], [1, "center", 3, "click"], [1, ""], ["class", "boxes-inner flex", 4, "ngFor", "ngForOf"], [1, "boxes-inner", "flex"], ["boxes", ""], [2, "display", "none", 3, "click", "change"], [1, "box", "center", 3, "click"]], template: function GiryaBoxesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0)(1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, GiryaBoxesComponent_div_2_Template, 3, 0, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, GiryaBoxesComponent_div_3_Template, 2, 1, "div", 3);
@@ -518,6 +521,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "SocialsComponent": () => (/* binding */ SocialsComponent)
 /* harmony export */ });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 5000);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ 4202);
+
 
 class SocialsComponent {
     constructor() { }
@@ -525,7 +530,7 @@ class SocialsComponent {
     }
 }
 SocialsComponent.ɵfac = function SocialsComponent_Factory(t) { return new (t || SocialsComponent)(); };
-SocialsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SocialsComponent, selectors: [["app-socials"]], decls: 22, vars: 0, consts: [["src", "https://gravatar.com/avatar/e907a730e362a6d52844c39c9b91cec7?s=400", "alt", "", 1, "me", "mt-4"], [1, "mt-6", "social", "is-size-5"], ["href", "https://twitter.com/mekewin", "target", "_blank"], ["href", "https://github.com/kewinshah25", "target", "_blank"], ["href", "https://linkedin.com/in/kewinshah", "target", "_blank"], ["href", "mailto:kewinshah25@gmail.com"]], template: function SocialsComponent_Template(rf, ctx) { if (rf & 1) {
+SocialsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SocialsComponent, selectors: [["app-socials"]], decls: 23, vars: 0, consts: [["src", "https://gravatar.com/avatar/e907a730e362a6d52844c39c9b91cec7?s=400", "alt", "", 1, "me", "mt-4"], [1, "mt-6", "social", "is-size-5"], ["href", "https://twitter.com/mekewin", "target", "_blank"], ["href", "https://github.com/kewinshah25", "target", "_blank"], ["href", "https://linkedin.com/in/kewinshah", "target", "_blank"], ["routerLink", "../projects/girya-boxes"], ["href", "mailto:kewinshah25@gmail.com"]], template: function SocialsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "img", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1)(3, "ul")(4, "li")(5, "a", 2);
@@ -543,13 +548,13 @@ SocialsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li")(15, "a", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "LinkedIn");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " | ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li")(20, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Mail");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li")(18, "a", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "|");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li")(21, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Mail");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
-    } }, styles: [".me[_ngcontent-%COMP%] {\n  display: block;\n  margin: auto;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  z-index: 2;\n}\n\n.social[_ngcontent-%COMP%] {\n  text-align: center;\n  color: #555;\n  overflow: hidden;\n}\n\n.social[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  display: inline;\n  list-style: none;\n  margin-left: 10px;\n}\n\n.social[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: inherit;\n  text-decoration: none;\n}\n\n.social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  cursor: pointer;\n}"] });
+    } }, dependencies: [_angular_router__WEBPACK_IMPORTED_MODULE_1__.RouterLinkWithHref], styles: [".me[_ngcontent-%COMP%] {\n  display: block;\n  margin: auto;\n  width: 150px;\n  height: 150px;\n  border-radius: 50%;\n  position: relative;\n  z-index: 2;\n}\n\n.social[_ngcontent-%COMP%] {\n  text-align: center;\n  color: #555;\n  overflow: hidden;\n}\n\n.social[_ngcontent-%COMP%]   li[_ngcontent-%COMP%] {\n  display: inline;\n  list-style: none;\n  margin-left: 10px;\n}\n\n.social[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  color: inherit;\n  text-decoration: none;\n}\n\n.social[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\n  cursor: pointer;\n}"] });
 
 
 /***/ }),
