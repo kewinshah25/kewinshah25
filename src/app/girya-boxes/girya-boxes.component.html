@@ -6,6 +6,7 @@
 		</div>
 		<div *ngIf="g.length > 0" class="">
 			<div #boxes *ngFor="let box of g" class="boxes-inner flex">
+        <input (click)="box.val = null"(change)="box.val" style="display:none">
 				<div class="box center" (click)="edit(box.id)">box: {{box.val}} </div>
 				<div class="center" (click)="add(box.id)">+</div>
 			</div>
