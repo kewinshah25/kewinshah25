@@ -1,0 +1,14 @@
+<div class="container">
+	<div class="inner-container">
+
+		<div *ngIf="g.length === 0" class="plus-container">
+			<div (click)="addFirst()" class="center">+</div>
+		</div>
+		<div *ngIf="g.length > 0" class="">
+			<div #boxes *ngFor="let box of g" class="boxes-inner flex">
+				<div class="box center" (click)="edit(box.id)">box: {{box.val}} </div>
+				<div class="center" (click)="add(box.id)">+</div>
+			</div>
+		</div>
+	</div>
+</div>
