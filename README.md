@@ -1,12 +1,13 @@
 # Personal Portfolio Website
 
-A website to record blogs and maybe some old projects.
+A website to track blogs and some old/in progress projects.
 
-- Project 1 (in progress): [**Basic website wide user log in**](#basic-website-wide-user-login)
-- Project 2 (planning to do): [**To do list**](#to-do-list)
-- Project 3 (planning to do): [**Blogging Website**](#blogs)
-- Project 4 (planning to do): [**Fantasy Soccer App**](#fantasy-app)
-- Project 5 (planning to do): [**E-commerce Website**](#ecommerce)
+1. [**Basic website wide user log in**](#basic-website-wide-user-login) (In progress)
+1. [**To do list**](#to-do-list) (TBD)
+1. [**Blogging Website**](#blogs) (TBD)
+1. [**Fantasy Soccer App**](#fantasy-app) (TBD)
+1. [**E-commerce Website**](#ecommerce) (TBD)
+1. [**League Fixture Simulator**](#Premier-League-or-any-other-league-fixture-simulator) (TBD)
 
 > To build the project locally, do npm
 
@@ -69,3 +70,7 @@ In this app, I am planning to follow the principles (and potentially rules) of t
 ## Ecommerce
 
 This one is gonna be huge IMO.
+
+## Premier League or any other league fixture simulator
+
+Simulate matches in the premier league from the current remaining fixture list (or maybe from a particular point of a GW as a future enhancement) to ultimately show the positions of the teams in the table based on the results in this simulation.
