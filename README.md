@@ -47,7 +47,7 @@ Goal:
 ## Blogs
 
 Simple blogging app similar to most available online.
-
+Update: As of May 2024, I am also thinking to add a few basic algorithms to help in understanding basic concepts. One of many ideas were to demonstrate how F1 could have saved a lot of fuel/reduce CO2 emmissions by using shortest path algorithms to travel and schedule races around the world. 
 Features:
 
 1. Login/sign up
