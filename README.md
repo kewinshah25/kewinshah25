@@ -5,6 +5,7 @@ A website to track blogs and some old/in progress projects.
 1. [**Basic website wide user log in**](#basic-website-wide-user-login) (In progress)
 1. [**To do list**](#to-do-list) (TBD)
 1. [**Blogging Website**](#blogs) (TBD)
+1. [**Stocks Simulator**](#stocks-simulator) (TBD)
 1. [**Fantasy Soccer App**](#fantasy-app) (TBD)
 1. [**E-commerce Website**](#ecommerce) (TBD)
 1. [**League Fixture Simulator**](#Premier-League-or-any-other-league-fixture-simulator) (TBD)
@@ -75,3 +76,7 @@ This one is gonna be huge IMO.
 ## Premier League or any other league fixture simulator
 
 Simulate matches in the premier league from the current remaining fixture list (or maybe from a particular point of a GW as a future enhancement) to ultimately show the positions of the teams in the table based on the results in this simulation.
+
+## Stocks Simulator
+
+Simulator for stock trading
